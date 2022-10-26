@@ -1,42 +1,43 @@
-Ce projet n'a pas pu être poussé aussi loin que souhaité. Nous avons manqué de temps pour améliorer l'éfficacité et effectuer des tests croisés.
+This project could not be taken as far as desired. There was not enough time to improve efficiency and to carry out cross-testing.
 
-## Nom
-E-Commerce : classification multimodale des types de produits à grande échelle.
+## Name
+E-Commerce: multimodal classification of product types on a large scale.
 
 ## Description
-Ce projet vise à associer à chaque objet (description, image) une catégorie à l'aide de données mises à notre disposition : ensemble d'associations objet-catégorie. Puis, par analyse de similarités, nous tâcherons alors d'attribuer à chaque objet la catégorie qui correspond le mieux.
+This project aims to associate each object (description, image) with a category using data made available to us: a set of object-category associations. Then, by similarity analysis, we will try to assign to each object the category that best corresponds.
 
 ## Installation
-Pour pouvoir parcourir les différents fichiers correctement, il faut installer certaines bibliothèques. Pour vous faciliter la tâche, vous pouvez directement écrire la commande suivante : "$ pip install -r requierements.txt" dans votre terminal. 
-Sinon, vous pouvez les installer un par un avec la commande : "pip install" suivie du nom de votre module.
+To be able to browse the different files correctly, you need to install some libraries. To make it easier for you, you can directly write the following command: "$ pip install -r requierements.txt" in your terminal. 
+Otherwise, you can install them one by one with the command: "pip install" followed by the name of your module.
+Some files are compressed, so make sure you unpack them all.
 
-## Usage
-Il faut télécharger les images qui sont disponible à l'adresse suivante : https://challengedata.ens.fr/participants/challenges/35/
-Ensuite il faut lancer le fichier classification_image.py pour classfier les images.
-Il faut lancer le fichier main.py avec la commande : "python main.py" dans le terminal. Celui-ci réalise le calcul des classes. Attention : il faut renseigner la variable path_y (voir commentaire correspondant).
-Il faut aussi lancer le fichier calcul_efficacite.py : il donne l'efficacité de notre modèle. 
-Dans le module création, on retrouve les fichiers qui permettent de créer différentes choses utiles.
-Dans le dossier data, on retrouve toutes les données : celles fournies, les données filtrées (équilibrage) et les données test.
-Dans le module traitement se trouve les deux fichiers qui permettent de traiter image et texte respectivment.
-Enfin, le module travail regroupe différentes fonctions qui permettent de réaliser diverses choses dont nous avons besoin.
-Le fichier "Output.py" présente l'index inversé.
-Le fichier "requierements.txt" permet au nouvel utilisateur de télécharger toutes les bibliothèques nécessaires à l'éxecution des programmes de ce projet.
-Finallement, ce README vise à renseigner le visiteur/utilisateur sur le porjet qu'il s'apprête à découvrir.
+## Use
+You need to download the images which are available at the following address: https://challengedata.ens.fr/participants/challenges/35/
+Then you have to launch the file classification_image.py to classify the images.
+You have to launch the file main.py with the command: "python main.py" in the terminal. This file calculates the classes. Attention: you must fill in the path_y variable (see corresponding comment).
+You must also launch the file calcul_efficacite.py : it gives the efficiency of our model. 
+In the creation module, you will find the files that allow you to create various useful things.
+In the data folder, we find all the data: the supplied data, the filtered data (balancing) and the test data.
+In the processing module, you will find the two files that allow you to process images and text respectively.
+Finally, the work module groups together various functions that allow us to do various things we need.
+The file "Output.py" presents the inverted index.
+The file "requierements.txt" allows the new user to download all the libraries necessary to run the programs of this project.
+Finally, this README aims at informing the visitor/user about the project he is about to discover.
 
 ## Support
-En cas de problème, vos êtes invités à contacter :
-- vincent.nguyen@student-cs.fr
+In case of problems, you are invited to contact
 - samuel.cordon@student-cs.fr
 - eliot.atlani@student-cs.fr
 - blaise.depauw@student-cs.fr
 - arthur.carsana@student-cs.fr
+- vincent.nguyen@student-cs.fr
 
 ## Roadmap
-Ce projet est encore bien loin de toucher à sa fin et il reste enormément de choses possibles à faire pour le compléter.
-Par exemple :
-- traitement d'autres objets différents (support vidéo par exemple)
-- amélioration de l'éfficacité avec des modèles différents des deux utilisés dans ce projet (plus proches voisins et régression logistique)
-- effectuer des tests croisés pour l'entraînement du modèle. 
+This project is still far from being finished and there is still a lot to do to complete it.
+For example :
+- processing of other different objects (e.g. video support)
+- improving the efficiency with different models than the two used in this project (nearest neighbours and logistic regression)
+- cross-testing the model for training. 
 
 ## Contributing
-Nous sommes ouverts à toute contribution extérieure.
+We are open to any external contribution.
