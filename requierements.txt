@@ -1,0 +1,8 @@
+numpy  
+spacy
+nltk
+tensorflow 
+matplotlib
+sklearn
+distance
+statistics
